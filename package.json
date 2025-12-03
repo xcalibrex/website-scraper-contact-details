@@ -1,1 +1,17 @@
-
+{
+  "name": "contact-scraper-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.43.0",
+    "p-queue": "^7.4.1"
+  }
+}
